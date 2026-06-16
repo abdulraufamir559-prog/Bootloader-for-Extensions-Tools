@@ -355,7 +355,7 @@ showMultiplayerLobby = function()
   lobbyLayout.setPadding(40, 40, 40, 40)
 
   local title = TextView(activity)
-  title.setText("Online Multiplayer Lobby")
+  titblsetText("Online Multiplayer Lobby")
   title.setTextSize(24)
   title.setPadding(0, 0, 0, 40)
   lobbyLayout.addView(title)
